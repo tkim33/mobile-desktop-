@@ -1,0 +1,101 @@
+.logo {
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    width: 65%;
+    margin-left: 50px;
+  }
+
+  #navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+  }
+
+  #navigation {
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+    #paragraph{
+        margin-top: 0px;
+
+}
+  .link{
+      color : black;
+      font-weight: 300;
+      text-decoration: none;
+  }
+
+  .highlight {
+    color: #CD492B;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  #content{
+      margin-top:50px;
+      display: flex;
+      flex-direction:row;
+      margin:0px 5%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+
+
+  }
+  #content image{
+      margin-left:50px;
+
+  }
+  #content p{
+      margin-left: 5%;
+      line-height: 29px;
+      margin-right: 3%;
+  }
+  .space{
+      margin: 5%;
+  }
+.space2{
+    margin-left: 60px;
+    margin-top: 15px;
+} 
+
+
+  
+.heroGridArea {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+  
+
+  
+  .project{
+    display: grid;
+    margin-right: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "mainimage1 mainimage2" "mainimage3 mainimage4" "mainimage5 mainimage6";
+  }
+  
+  .mainimage1 { grid-area: mainimage1; }
+  .mainimage1 img{width: 110%; height: 110%;}
+  
+  .mainimage2 { grid-area: mainimage2; }
+  .mainimage2 img{width: 110%; height: 110%;}
+  
+  .mainimage3 { grid-area: mainimage3; }
+  .mainimage3 img{width: 110%; height: 110%;}
+  
+  .mainimage4 { grid-area: mainimage4; }
+  
+  .mainimage5 { grid-area: mainimage5; }
+  
+  .mainimage6 { grid-area: mainimage6; }
+   
